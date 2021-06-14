@@ -14,3 +14,5 @@ The code requires, in addition to a number of python modules, access to the Gene
 The untarred contents of this file are expected by the code in a subdirectory called ekstrom_geneva.
 
 The python libraries expected include numpy, schwimmbad, matplotlib, scipy, and dynesty, all of which are pip-installable.
+
+To avoid having to generate a new set of posterior samples on which these plots are based (which you can do by uncommenting the appropriate line in the "main" part of the aluminum_inference.py file and running the code with mpirun or similar), you can download the posterior samples from https://www.dropbox.com/s/kyt9q04efnv3obw/dsampler_results_76.pickle?dl=1
